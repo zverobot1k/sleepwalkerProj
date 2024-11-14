@@ -29,3 +29,7 @@ func main() {
 func summ(a, b int) int {
 	return a + b
 }
+
+func multiply(a, b int) int {
+	return a * b
+}
