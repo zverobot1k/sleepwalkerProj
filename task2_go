@@ -1,0 +1,17 @@
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+func main() {
+	var s, v_0, v, a, t int
+	fmt.Println("Введите: начальную скорость, скорость, ускорение, время")
+	fmt.Scan(&v_0)
+	fmt.Scan(&v)
+	fmt.Scan(&a)
+	fmt.Scan(&t)
+	s = v_0*t + 0.5*((a*math.Pow(t, 2))/2)
+	fmt.Println(s)
+}
